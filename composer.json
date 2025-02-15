@@ -1,0 +1,17 @@
+{
+    "name": "selistore/printfulapi",
+    "author": "Thealgoslingers",
+    "description": "Printful dropshipping api",
+    "type": "library",
+    "require": {
+        "php":"^8.2",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Selistore\\PrintfulApi\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
